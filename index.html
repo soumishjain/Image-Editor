@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="left">
+                <div class="top">
+                    <input type="file" id="name" />
+                    <label for="name">Choose image</label>
+                    <button class="btn reset">Reset</button>
+                    <button class="btn download">Download</button>
+                </div>
+                <div class="bot">
+                    <div class="center">
+                        <i id="icon" class="ri-image-line"></i>
+                    <h4>No image Chosen</h4>
+                    </div>
+                    <canvas id="canvas"></canvas>
+                </div>
+            </div>
+            <div class="right">
+                <div class="top">
+                    <h1>Filters</h1>
+                    <div class="filters">
+                    </div>
+                    <div class="bot">
+                        <h1>Presets</h1>
+                        <div class="presetcont">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="bot">
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
