@@ -256,5 +256,7 @@ Object.keys(presets).forEach(presetname => {
             filters[filtername].Value = presetfilter[filtername]
         })
         applyfilters();
+        filtercontainer.innerHTML = ""
+        createfilters()
     })
 })
